@@ -1,9 +1,14 @@
 package com.fundamental.java;
-
+/*
+* This class is the starting class of this project
+* This is an example of a multi-line comment.
+* */
 public class Main {
 
     public static void main(String[] args)
     {
 	System.out.println("Welcome to Java");
+	House myHouse = new House();
+	myHouse.doorOpenClose();
     }
 }
