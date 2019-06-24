@@ -7,13 +7,32 @@ package com.fundamental.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson7examples();
+        lesson8Example2();
+        //lesson8Example1();
+        //lesson7examples();
         //moreLesson6();
         //lesson6Examples();
         //lesson5Examples();
         //houseExample();
+    }
 
+    public static void lesson8Example2() {
+        Lesson8 otherLesson = new Lesson8();
+        otherLesson.basicWhileExample();
+        otherLesson.basicDoWhileExample();
+        otherLesson.basicForLoopExample();
+        otherLesson.basicBranchingExample();
+    }
 
+    public static void lesson8Example1() {
+        Lesson8 myLesson8 = new Lesson8();
+        myLesson8.basicIfExample(5, 10); // prints before & after
+        myLesson8.basicIfExample(5, 5); // prints before if & after
+        myLesson8.basicIfElseExample(10, 12); // not equal
+        myLesson8.basicIfElseExample(12, 12); // equal
+        myLesson8.basicIfElseChainExample(42);
+        myLesson8.basicIfAndOrExample(36);
+        myLesson8.basicSwtichExample(3);
     }
 
     public static void lesson7examples() {
@@ -25,7 +44,6 @@ public class Main {
         myLesson7.exampleAssignment2();
         myLesson7.exampleRelational();
         myLesson7.exampleIncrement();
-        myLesson7.exampleDecrement();
     }
 
     public static void moreLesson6() {
