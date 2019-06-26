@@ -1,5 +1,5 @@
 package com.fundamental.java;
-
+import com.fundamental.lesson10.Lesson10;
 /*
  * This class is the starting class of this project
  * This is an example of a multi-line comment.
@@ -7,14 +7,30 @@ package com.fundamental.java;
 public class Main {
 
     public static void main(String[] args) {
-        lesson8Example2();
+        lesson11Example();
+        //lesson10Example();
+        //lesson8Example2();
         //lesson8Example1();
         //lesson7examples();
         //moreLesson6();
         //lesson6Examples();
         //lesson5Examples();
         //houseExample();
+    } // end of main method
+
+    public static void lesson11Example() {
+        House house1 = new House();
+
+        House house2 = new House("red");
     }
+public static void lesson10Example() {
+        //Try to see a private method in another class
+    Lesson6 myLesson6 = new Lesson6();
+    //myLesson6.examplePrivate(); // cannot access
+    Lesson10 myLesson10 = new Lesson10();
+    //myLesson10.showLesson(); // cannot access
+    //myLesson10.showProtected(); // cannot access
+}
 
     public static void lesson8Example2() {
         Lesson8 otherLesson = new Lesson8();
