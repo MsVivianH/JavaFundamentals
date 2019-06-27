@@ -54,7 +54,7 @@ public Truck(String wheels, int windows, String boxbed, String color) {
 }
 
 public Truck(String wheels, int windows) {
-        this(wheels, windows, "flatbed", "Cameo");
+        this(wheels, windows, "flatbed", "Camo");
 }
 
 }
