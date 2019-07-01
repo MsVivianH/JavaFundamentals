@@ -3,7 +3,7 @@ package com.fundamental.java;
 /*
  * This is our first class that we created ourselves.
  * */
-public class House {
+public class House implements MyFirstInterface{
 
     private String roofType;
     private int windowSize;
@@ -72,5 +72,10 @@ public class House {
 
     public void setDoorColor(String doorColor) {
         this.doorColor = doorColor;
+    }
+
+    @Override
+    public void endCall() {
+
     }
 }

@@ -9,7 +9,8 @@ import com.fundamental.lesson10.Lesson10;
 public class Main {
 
     public static void main(String[] args) {
-        lesson12Example();
+        lesson15Example();
+        //lesson12Example();
         //TruckExample();
         //lesson11Example();
         //lesson10Example();
@@ -21,6 +22,16 @@ public class Main {
         //lesson5Examples();
         //houseExample();
     } // end of main method
+
+    public static void lesson15Example() {
+        int[] myKeys = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        Blackberry myBlackberry = new Blackberry(25, myKeys, 0, "Color Screen");
+        myBlackberry.receiveCall();
+        AbstractCellPhone myOldPhone = new Blackberry(30, myKeys, 1, "monochrome");
+        myOldPhone.receiveCall();
+        myOldPhone.endCall();
+    } // end method
+
 
     public static void lesson12Example() {
         Condo myCondo = new Condo();
