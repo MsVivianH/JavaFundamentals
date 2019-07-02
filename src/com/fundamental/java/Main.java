@@ -9,7 +9,10 @@ import com.fundamental.lesson10.Lesson10;
 public class Main {
 
     public static void main(String[] args) {
-        lesson15Example();
+        lesson17Example();
+        //week3Lab3();
+        //lesson16Example();
+        //lesson15Example();
         //lesson12Example();
         //TruckExample();
         //lesson11Example();
@@ -23,6 +26,26 @@ public class Main {
         //houseExample();
     } // end of main method
 
+    public static void lesson17Example() {
+        Lesson17 myLesson17 = new Lesson17();
+        //myLesson17.exampleArrayList1();
+        //myLesson17.exampleArrayList2();
+        //myLesson17.exampleHashSet();
+        myLesson17.examplHashMap();
+    }
+
+    public static void lesson16Example() {
+        Lesson16 myLesson16 = new Lesson16();
+        myLesson16.showEnum();
+        myLesson16.MyFavoriteFlavor(Lesson16.IceCreamFlavors.CHOCOLATE);
+
+        DaysOfTheWeek d1[] = DaysOfTheWeek.values();
+        for (DaysOfTheWeek day : d1) {
+            System.out.println(day + " at index " + day.ordinal());
+        }
+
+    }
+
     public static void lesson15Example() {
         int[] myKeys = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
         Blackberry myBlackberry = new Blackberry(25, myKeys, 0, "Color Screen");
@@ -32,6 +55,10 @@ public class Main {
         myOldPhone.endCall();
     } // end method
 
+    public static void week3Lab3() {
+        Week3Lab Lab3 = new Week3Lab();
+        System.out.println(Lab3.showGrade('G'));
+    }
 
     public static void lesson12Example() {
         Condo myCondo = new Condo();
