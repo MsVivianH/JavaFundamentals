@@ -9,7 +9,8 @@ import com.fundamental.lesson10.Lesson10;
 public class Main {
 
     public static void main(String[] args) {
-        lesson17Example();
+        lesson18Example();
+        //lesson17Example();
         //week3Lab3();
         //lesson16Example();
         //lesson15Example();
@@ -25,6 +26,13 @@ public class Main {
         //lesson5Examples();
         //houseExample();
     } // end of main method
+
+    public static void lesson18Example() {
+        Lesson18 myLesson18 = new Lesson18();
+        myLesson18.exampleException();
+        myLesson18.myArrayException();
+
+    }
 
     public static void lesson17Example() {
         Lesson17 myLesson17 = new Lesson17();
